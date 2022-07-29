@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>学部診断テスト</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="OPC.css">
+    </head>
+    <body>
+      <h1>学部診断テスト</h1>
+      <h2>自分に適しているのは機械系か数理系かを診断してみよう</h2>
+      <form id="questionbox">
+        <p>設問1:数学は好きか<br>
+          <label><input type="radio" name="like" value = "1">はい</label>
+          <label><input type="radio" name="like" value = "0">いいえ</label></p>
+        <p>設問2:PCを触るのは好きか<br>
+          <label><input type="radio" name="like1" value = "1">はい</label>
+          <label><input type="radio" name="like1" value = "0">いいえ</label></p>
+        <p>設問3:ゲームはよくするか<br>
+          <label><input type="radio" name="like2" value = "1">はい</label>
+          <label><input type="radio" name="like2" value = "0">いいえ</label></p>
+        <p>設問4:モノ作りは好きか<br>
+          <label><input type="radio" name="like3" value = "1">はい</label>
+          <label><input type="radio" name="like3" value = "0">いいえ</label></p>
+        <p>設問5:細かい作業は好きか<br>
+          <label><input type="radio" name="like4" value = "1">はい</label>
+          <label><input type="radio" name="like4" value = "0">いいえ</label></p>
+        <p>設問6:長時間机には座っていられるか<br>
+          <label><input type="radio" name="like5" value = "1">はい</label>
+          <label><input type="radio" name="like5" value = "0">いいえ</label></p>
+        <p>設問7:1人で考えるのは好きか<br>
+          <label><input type="radio" name="like6" value = "1">はい</label>
+          <label><input type="radio" name="like6" value = "0">いいえ</label></p>
+        <p>設問8:足は速いと思うか<br>
+          <label><input type="radio" name="like7" value = "1">はい</label>
+          <label><input type="radio" name="like7" value = "0">いいえ</label></p>
+        <p>設問9:部活には入っているか<br>
+          <label><input type="radio" name="like8" value = "1">はい</label>
+          <label><input type="radio" name="like8" value = "0">いいえ</label></p>
+        <p>設問10:友達は多いと思うか<br>
+          <label><input type="radio" name="like9" value = "1">はい</label>
+          <label><input type="radio" name="like9" value = "0">いいえ</label></p>
+        <p>設問11:理科科目は好きか<br>
+          <label><input type="radio" name="like10" value = "1">はい</label>
+          <label><input type="radio" name="like10" value = "0">いいえ</label></p>
+        <p>設問12:歌を歌うのが好きか<br>
+          <label><input type="radio" name="like11" value = "1">はい</label>
+          <label><input type="radio" name="like11" value = "0">いいえ</label></p>
+        <p>設問13:学校行事は好きか<br>
+          <label><input type="radio" name="like12" value = "1">はい</label>
+          <label><input type="radio" name="like12" value = "0">いいえ</label></p>
+        <p>設問14:将来結婚したいか<br>
+          <label><input type="radio" name="like13" value = "1">はい</label>
+          <label><input type="radio" name="like13" value = "0">いいえ</label></p>
+        <p>設問15:大学生になったらたくさん遊びたいか<br>
+          <label><input type="radio" name="like14" value = "1">はい</label>
+          <label><input type="radio" name="like14" value = "0">いいえ</label></p>
+        <p>設問16:マンガ・アニメはよく見るか<br>
+          <label><input type="radio" name="like15" value = "1">はい</label>
+          <label><input type="radio" name="like15" value = "0">いいえ</label></p>
+        <p>設問17:寝るのは好きか<br>
+          <label><input type="radio" name="like16" value = "1">はい</label>
+          <label><input type="radio" name="like16" value = "0">いいえ</label></p>
+        <p>設問18:一人でラーメン屋に行けますか<br>
+          <label><input type="radio" name="like17" value = "1">はい</label>
+          <label><input type="radio" name="like17" value = "0">いいえ</label></p>
+        <p>設問19:暗算は得意か<br>
+          <label><input type="radio" name="like18" value = "1">はい</label>
+          <label><input type="radio" name="like18" value = "0">いいえ</label></p>
+        <p>設問20:国語は苦手だが、どちらかといえば英語は得意<br>
+          <label><input type="radio" name="like19" value = "1">はい</label>
+          <label><input type="radio" name="like19" value = "0">いいえ</label></p>
+      </form>
+
+        <button id = "btn" onclick="run()">結果を見る</button>
+        <h1>あなたに向いているコースは...</h1>
+        <p class ="blink"cd  id="result"></p>
+      <script type="text/javascript" src = "OPC.js"></script>
+    </body>
+</html>
