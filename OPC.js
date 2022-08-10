@@ -412,6 +412,6 @@ var f_w_1 = (reactionData, t1, t2, b, a) => {
   else{
     var result = "機械";
   }
-  console.log("(t1)", t1, "(t2)", t2, "(a)", a, "(b)", b, "(w)", w, "(" + d + ")");
+  //console.log("(t1)", t1, "(t2)", t2, "(a)", a, "(b)", b, "(w)", w, "(" + d + ")");
   document.getElementById("result").innerHTML = result;
 }
