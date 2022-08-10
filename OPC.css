@@ -11,7 +11,38 @@ p{
 }
 button{
   font-size: 30px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #0308ff;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  background: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }
+
+button:active{
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);
+}
+
+header{
+  color: #ffffff;
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-items: center;
+  text-align: center;
+}
+
 p#result{
   font-size: 100px;
   text-align: center;
@@ -24,4 +55,28 @@ p#result{
 }
 .blink {
 	animation: blinking 1s ease-in-out infinite alternate;
+}
+
+
+
+label{
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;/*背景色*/
+  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+label:active{
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+p{
+  font-weight:  bold;
 }
