@@ -80,3 +80,52 @@ label:active{
 p{
   font-weight:  bold;
 }
+
+a{
+  text-decoration: none;
+}
+
+.box8 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+li {
+  font-size: 30px;
+  position: relative;
+  margin: 0em 0 1em 0px;
+  padding: 8px 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+  text-align: center;
+}
+li:before{font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 15px;
+  left: -30px;
+  bottom: 0;
+  color: #fff0c6;
+}
+li:after{
+  font-family: FontAwesome;
+  content: "\f111";
+  position: absolute;
+  font-size: 30px;
+  left: -13px;
+  bottom: 0;
+  color: #fff0c6;
+}
+li p {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 40px;
+}
