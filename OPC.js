@@ -405,6 +405,5 @@ var f_w_1 = (reactionData, t1, t2, b, a) => {
   else{
     var result = "機械";
   }
-  console.log("(t1)", t1, "(t2)", t2);
   document.getElementById("result").innerHTML = result;
 }
